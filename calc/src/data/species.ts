@@ -1145,7 +1145,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Kingdra: {
     types: ['Water', 'Dragon'],
-    bs: {hp: 75, at: 95, df: 95, sa: 95, sd: 95, sp: 85},
+    bs: {hp: 85, at: 110, df: 95, sa: 110, sd: 95, sp: 105},
     weightkg: 152,
   },
   Lanturn: {
@@ -2217,7 +2217,7 @@ const ADV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Mawile: {
     types: ['Steel'],
-    bs: {hp: 50, at: 85, df: 85, sa: 55, sd: 55, sp: 50},
+    bs: {hp: 70, at: 95, df: 95, sa: 55, sd: 75, sp: 90},
     weightkg: 11.5,
     abilities: {0: 'Hyper Cutter'},
   },
@@ -5721,7 +5721,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Mawile-Mega': {
     types: ['Steel', 'Fairy'],
-    bs: {hp: 50, at: 105, df: 125, sa: 55, sd: 95, sp: 50},
+    bs: {hp: 80, at: 115, df: 125, sa: 55, sd: 95, sp: 110},
     weightkg: 23.5,
     abilities: {0: 'Huge Power'},
     baseSpecies: 'Mawile',
